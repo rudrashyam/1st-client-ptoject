@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+   
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body{
+
+   
+    background: url("back-2.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+
+
+
+/* navbar search bar */
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 100px;
+
+}
+input[type=text]{
+    padding: 7px;
+    border-color: silver;
+    border-radius: 5px 0 0 5px ;
+    font-size: 16px;
+}
+
+button{
+    float: right;
+    background: crimson;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 8.5px;
+    border-color: silver;
+
+}
+.navbar{
+
+
+   
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+   
+    font-family: 'ubantu', sans-serif;
+    transition: all 0.3s ease;
+
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background-color: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.navbar .logo a span{
+    color: crimson;
+
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+
+.navbar.sticky .menu li a:hover{
+
+    color: #fff;
+}
+/* nav section end */
+
+
+
+
+
+
+
+
+
+/* home section styling */
+
+
+.home-title p{
+
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-right: -35px;
+    text-decoration: underline crimson;
+
+    
+}
+
+
+
+
+/* circular section styling */
+
+.flex{
+
+    display: flex;
+   justify-content: center;
+  
+}
+.text{
+
+    font-size: 25px;
+
+}
+
+
+
+.card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+
+    background: crimson;
+}
+.card .box{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* footer section styling */
+
+footer{
+    background: #111;
+    padding: 6px 13px;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+
+
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:860px ) {
+
+    .search-form{
+        margin-top: 15px;
+        float: right;
+        margin-right: 30px;
+    
+    }
+    
+}
+
+
+@media (max-width:760px ) {
+
+    .flex{
+        flex-wrap: wrap;
+
+    }
+    .navbar .logo a {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+    
+    }
+    .search-form{
+        margin-top: 15px;
+        float: right;
+        margin-right: 20px;
+        
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.5px;
+        border-color: silver;
+    
+    }
+}
+@media (max-width:690px ) {
+    
+    .navbar .max-width{
+        display: block;
+     
+       
+        
+    
+    }
+    .navbar .max-width .logo{
+        margin-top:13px ;
+        font-weight: 500;
+       
+    }
+    .search-form{
+       display: inline;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+
+        float: right;
+        margin-right: 40px;
+    
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+        width: 400px;
+        
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.5px;
+        border-color: silver;
+    
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:670px ) {
+    
+    .navbar .max-width{
+        display: block;
+     
+       
+        
+    
+    }
+    .navbar .max-width .logo{
+        margin-top:13px ;
+        font-weight: 500;
+       
+    }
+    .search-form{
+       display: inline;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+
+        float: right;
+        margin-right: 40px;
+    
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+        width: 300px;
+        
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.5px;
+        border-color: silver;
+    
+
+}
+
+
+
+}
+
+
+@media (max-width:570px ) {
+    
+    .navbar .max-width{
+        display: block;
+     
+       
+        
+    
+    }
+    .navbar .max-width .logo{
+        margin-top:13px ;
+        font-weight: 500;
+       
+    }
+    .search-form{
+       display: inline;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+
+        float: right;
+        margin-right: 40px;
+    
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+        width: 200px;
+        
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.5px;
+        border-color: silver;
+    
+
+}
+
+
+
+}
+
+
+@media (max-width:470px ) {
+    
+    .navbar .max-width{
+        display: block;
+     
+       
+        
+    
+    }
+    .navbar .max-width .logo{
+        margin-top:13px ;
+        font-weight: 500;
+       
+    }
+    .search-form{
+       display: inline;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+
+        float: right;
+        margin-right: 40px;
+    
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+        width: 100px;
+        
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.5px;
+        border-color: silver;
+    
+
+}
+
+
+
+}
+
+
+
+
+@media (max-width:370px ) {
+    
+    .navbar .max-width{
+        display: block;
+     
+       
+        
+    
+    }
+    .navbar .max-width .logo{
+        margin-top:13px ;
+        font-weight: 500;
+       
+    }
+    .search-form{
+       display: inline;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+
+        float: right;
+        margin-right: 40px;
+    
+    }
+    input[type=text]{
+        padding: 5px;
+        border-color: silver;
+        border-radius: 5px 0 0 5px ;
+        font-size: 12px;
+        width: 70px;
+        
+    }
+    button{
+        float: right;
+        background: crimson;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        position: relative;
+        padding: 4.2px;
+        border-color: silver;
+    
+
+}
+
+
+
+}
+
+
+
