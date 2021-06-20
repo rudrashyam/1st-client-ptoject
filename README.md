@@ -2,4 +2,4 @@
 1st client ptoject
 This my first portfolio
 
-URL:
+URL:https://rudrashyam.github.io/1st-client-ptoject/
